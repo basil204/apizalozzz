@@ -200,3 +200,7 @@ router.get("/allgroups", async (req, res) => {
 
 
 module.exports = router;
+// Đoạn mã này định nghĩa các route cho việc gửi tin nhắn và sticker qua Zalo API.
+// Nó bao gồm các route để gửi tin nhắn đến người dùng cá nhân và nhóm, cũng như lấy thông tin người dùng.
+// Các route này sử dụng các hàm từ zaloModel để thực hiện các thao tác cụ thể.
+// Các route này cũng xử lý các lỗi có thể xảy ra và trả về phản hồi thích hợp cho client.  
